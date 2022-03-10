@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="index.js"></script>
     <title>Actividad 2</title>
   </head>
   <body>
-    <div></div>
+    <div>
+      <p>Este es un párrafo.</p>
+      <br />
+      <div style="display: flex; flex-direction: column">
+        <img
+          height="200px"
+          width="300px"
+          src="https://picsum.photos/200/300"
+          alt="Imagen random"
+        />
+        <a
+          href="https://picsum.photos/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Fotos servidas por el servicio de Picsum.</a
+        >
+      </div>
+      <br />
+      <input id="input" type="text" placeholder="Ingresa un valor" />
+      <input
+        type="button"
+        value="Imprimir mensaje"
+        onclick="displayMessage()"
+      />
+    </div>
   </body>
 </html>
